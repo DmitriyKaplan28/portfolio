@@ -1,0 +1,25 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #ffc5f5;
+}
+
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.greetings {
+    width: 300px;
+    background-color: #dbf1d9;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #dbf1d9;
+}
