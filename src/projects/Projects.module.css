@@ -1,14 +1,11 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: #3fd286;
+    background-color: rgb(255, 255, 255);
 }
+
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.title {
-    background-color: #eeeef5;
 }
 
 .projects {
@@ -17,4 +14,11 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 642px) {
+    .projects {
+        justify-content: center;
+    }
 }
