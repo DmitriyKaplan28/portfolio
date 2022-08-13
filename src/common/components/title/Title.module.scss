@@ -1,0 +1,26 @@
+@import './src/common/styles/sass/variables.scss';
+@import './src/common/styles/sass/mixins.scss';
+
+.title {
+  text-align: center;
+  position: relative;
+
+  h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 3px;
+    @include text ($titleFontFamily, 52px, 1.2em);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    background: black;
+    width: 80px;
+    height: 1px;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
