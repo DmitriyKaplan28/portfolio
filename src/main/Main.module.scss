@@ -1,0 +1,35 @@
+@import './src/common/styles/sass/variables.scss';
+@import './src/common/styles/sass/mixins.scss';
+
+.mainBlock {
+  height: 100vh;
+
+  .greetings {
+    width: 300px;
+    background-color: $bgSecondColor;
+
+    .text {
+      @include text($titleFontFamily, 20x, 1.2em);
+    }
+
+    .h1 {
+      @include text($titleFontFamily, 55px, 1.2em);
+    }
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-color: $bgSecondColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+
+
+

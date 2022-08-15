@@ -1,5 +1,7 @@
+@import './src/common/styles/sass/variables.scss';
+@import './src/common/styles/sass/mixins.scss';
+
 .nav {
-    border: 1px solid;
     width: 300px;
     display: flex;
     justify-content: space-evenly;
@@ -12,5 +14,5 @@
     text-transform: uppercase;
     line-height: 2em;
     letter-spacing: 2px;
-    color: #111111;
+    @include text ($textFontFamily, 11px, 1.8em);
 }

@@ -1,19 +1,15 @@
-.projectsBlock {
+.skillsBlock {
   min-height: 100vh;
 
-  .projectsContainer {
+  .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
 
-    .projects {
+    .skills {
       width: 100%;
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      margin-top: 30px;
-      @media screen and (max-width: 642px) {
-        justify-content: center;
-      }
     }
   }
 }
