@@ -6,7 +6,7 @@
 
   .greetings {
     width: 300px;
-    background-color: $bgSecondColor;
+    //background-color: $bgSecondColor;
 
     .text {
       @include text($titleFontFamily, 20x, 1.2em);
