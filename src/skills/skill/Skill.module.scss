@@ -14,7 +14,6 @@
   .icon {
     height: 60px;
     width: 60px;
-    background-color: #fff9f9;
     align-items: center;
     justify-content: center;
     background-size: cover;
@@ -24,7 +23,6 @@
     &::before {
       position: absolute;
       content: '';
-      background-color: black;
       top: 0;
       bottom: 0;
       right: 0;
