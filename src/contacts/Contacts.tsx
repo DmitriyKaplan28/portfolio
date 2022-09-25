@@ -9,11 +9,11 @@ export const Contacts = () => {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title={'Contacts'}/>
                 <form className={style.formContainer}>
-                    <input type="text" className={style.formElement}/>
-                    <input type="text" className={style.formElement}/>
-                    <textarea className={style.formElement}></textarea>
+                    <input type="text" className={style.formElement} placeholder={'Please, enter your name and organization'}/>
+                    <input type="text" className={style.formElement} placeholder={'How can i contact you?'}/>
+                    <textarea className={style.formElement} placeholder={'Please, give me short description on your proposal or a link'}></textarea>
                 </form>
-                <div className={style.buttonContainer}><button>Send</button></div>
+                <button className={style.button}>Send</button>
             </div>
 
         </div>
