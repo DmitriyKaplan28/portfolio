@@ -8,15 +8,18 @@
 }
 
 .formContainer {
-    max-width: 500px;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 5px;
 }
 
 .formElement {
-    width:100%
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .button {
