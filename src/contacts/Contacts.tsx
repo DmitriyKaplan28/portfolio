@@ -17,7 +17,6 @@ export const Contacts = () => {
                 </form>
                 <button className={style.button}>Send</button>
             </div>
-
         </div>
     );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {DragEventHandler} from 'react';
 import style from './Project.module.scss';
 
 type styleType = {
