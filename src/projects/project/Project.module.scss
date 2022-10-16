@@ -3,7 +3,7 @@
 
 .project {
   max-width: 500px;
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,6 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-
     &::before {
       position: absolute;
       content: '';

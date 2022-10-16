@@ -4,6 +4,7 @@
   .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 
     .projects {
       width: 100%;
@@ -11,7 +12,7 @@
       justify-content: space-evenly;
       flex-wrap: wrap;
       margin-top: 30px;
-      @media screen and (max-width: 642px) {
+      @media screen and (max-width: 725px) {
         justify-content: center;
       }
     }
