@@ -3,6 +3,9 @@
 
 .mainBlock {
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
 
   .greetings {
     width: 300px;
