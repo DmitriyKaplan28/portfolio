@@ -26,7 +26,9 @@ export const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill title={'JS'} description={'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum'} style={jsStyle}/>
+                    <Skill title={'JS'}
+                           description={'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum'}
+                           style={jsStyle}/>
                     <Skill title={'CSS'} description={'Lorem ipsum'} style={cssStyle}/>
                     <Skill title={'React'} description={'Lorem ipsum'} style={reactStyle}/>
                 </div>
