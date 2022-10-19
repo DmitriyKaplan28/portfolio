@@ -23,6 +23,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+
     &::before {
       position: absolute;
       content: '';
@@ -60,7 +61,7 @@
       align-items: center;
       justify-content: center;
       margin-left: 3px;
-      @include text ($titleFontFamily, 20x, 1.2em);
+      @include text($titleFontFamily, 20x, 1.2em);
     }
 
     .description {
@@ -68,7 +69,7 @@
       display: flex;
       align-items: flex-start;
       margin-left: 3px;
-      @include text ($textFontFamily, 15px, 1.8em);
+      @include text($textFontFamily, 15px, 1.8em);
     }
   }
 }
