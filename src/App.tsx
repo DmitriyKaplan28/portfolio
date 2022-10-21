@@ -11,13 +11,13 @@ import {Footer} from "./footer/Footer";
 function App() {
     return (
         <div className={style.App}>
-            <Header />
-            <Main />
-            <Skills />
-            <Projects />
-            <RemoteWork />
-            <Contacts />
-            <Footer />
+            <Header/>
+            <Main/>
+            <Skills/>
+            <Projects/>
+            <RemoteWork/>
+            <Contacts/>
+            <Footer/>
         </div>
     );
 }
