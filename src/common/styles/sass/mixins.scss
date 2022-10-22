@@ -6,3 +6,22 @@
   line-height: 1.2em;
   color: $textColor;
 }
+
+@mixin container() {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin flex($direction, $justifyContent, $alignItems, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+  flex-wrap: $wrap;
+}
+
+@mixin bgCover() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
