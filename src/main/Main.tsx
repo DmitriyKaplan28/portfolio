@@ -25,7 +25,7 @@ export const Main = () => {
 
     return (
         <div className={style.mainBlock}>
-            <Particles className={style.particles} params={particlesOpt} />
+            <Particles className={style.particles} params={particlesOpt}/>
             <div className={styleContainer.container}>
                 <div className={style.greetings}>
                     <span className={style.text}>Hi there</span>
