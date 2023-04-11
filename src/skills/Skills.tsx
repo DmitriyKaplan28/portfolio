@@ -30,7 +30,8 @@ export const Skills = () => {
                            description={'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum'}
                            style={jsStyle}/>
                     <Skill title={'CSS'} description={'Lorem ipsum'} style={cssStyle}/>
-                    <Skill title={'React'} description={'Lorem ipsum'} style={reactStyle}/>
+                    <Skill title={'React'} description={'Lorem ipsum'}
+                           style={reactStyle}/>
                 </div>
             </div>
         </div>
