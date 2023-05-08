@@ -12,11 +12,9 @@ export const Skills = () => {
     const jsStyle = {
         backgroundImage: `url(${jsImage})`,
     };
-
     const cssStyle = {
         backgroundImage: `url(${cssImage})`,
     };
-
     const reactStyle = {
         backgroundImage: `url(${reactImage})`,
     };
