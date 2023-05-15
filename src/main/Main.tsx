@@ -17,7 +17,6 @@ const particlesOpt = {
 }
 
 export const Main = () => {
-
     const myPhotoStyle = {
         backgroundImage: `url(${myPhotoImage})`,
     };
