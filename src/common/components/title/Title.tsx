@@ -5,10 +5,10 @@ type TitlePropsType = {
     title: string
 }
 
-export const Title = (props: TitlePropsType) => {
+export const Title = ({title}: TitlePropsType) => {
     return (
         <div className={style.title}>
-            <h2>{props.title}</h2>
+            <h2>{title}</h2>
         </div>
     );
 };
