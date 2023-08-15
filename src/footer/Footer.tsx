@@ -8,6 +8,7 @@ import codewarsImage from "../assets/images/codewars.svg";
 import telegramImage from "../assets/images/telegram.svg";
 import {Link} from "./link/Link";
 
+
 const linkedinStyle = {
     backgroundImage: `url(${linkedinImage})`,
 };
