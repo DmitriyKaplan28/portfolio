@@ -1,8 +1,9 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { Engine } from "tsparticles-engine";
 
 export default function App() {
-    const particlesInit = async (main) => {
+    const particlesInit = async (main: Engine) => {
         console.log(main);
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
         // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -37,7 +38,7 @@ export default function App() {
                         "shape": {
                             "type": "star",
                             "options": {
-                                "sides": 5
+                                //"sides": 5
                             }
                         },
                         "opacity": {
