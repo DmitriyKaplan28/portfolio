@@ -1,4 +1,5 @@
 @import './src/common/styles/sass/variables.scss';
+@import './src/common/styles/sass/mixins.scss';
 
 .remoteBlock {
   min-height: 30vh;
@@ -17,17 +18,7 @@
   justify-content: center;
 
   .button {
-    font-style: normal;
-    position: relative;
-    z-index: 1;
-    background-color: #e7e7e7;
-    color: black;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: inherit;
+    @include button();
   }
 }
 

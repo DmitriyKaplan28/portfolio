@@ -1,3 +1,5 @@
+@import './src/common/styles/sass/mixins.scss';
+
 .contactsBlock {
     min-height: 50vh;
     padding: 50px 0;
@@ -21,18 +23,8 @@
             margin-bottom: 5px;
         }
     }
-    //TODO refactor duplicate button styles
+
     .button {
-        font-style: normal;
-        position: relative;
-        z-index: 1;
-        background-color: #e7e7e7;
-        color: black;
-        border: none;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-family: inherit;
+        @include button();
     }
 }
