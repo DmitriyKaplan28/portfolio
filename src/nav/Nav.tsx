@@ -1,6 +1,6 @@
 import React from 'react';
-
 import style from './Nav.module.scss';
+
 
 export const Nav = () => {
     return (
